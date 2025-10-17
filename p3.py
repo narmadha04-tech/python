@@ -1,4 +1,4 @@
-#Write a program that prompts the user to enter two numbers and displays their sum. Raise an exception and handle it if a non-number value is given as inputdef add_numbers():
+#Write a program that prompts the user to enter two numbers and displays their sum. Raise an exception and handle it if a non-number value is given as input.
 def add():
     try:
         num1 = float(input("Enter the first number: "))
@@ -8,3 +8,4 @@ def add():
         print("Error: Please enter valid numeric values.")
 
 add()
+
