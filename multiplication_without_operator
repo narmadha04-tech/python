@@ -1,5 +1,7 @@
+#multiplication without using * operator
 n1,n2=map(int,input().split())
 mul=0
 for i in range(n2):
     mul=mul+n1
 print(mul)
+
